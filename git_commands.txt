@@ -15,6 +15,9 @@ git checkout master //change branch to the master branch , all files edited from
 git merge <branch name to merge with master branch> // this will open a vim editor enter i to insert  uncomment MERGE BRANCH <branch name> then escape 
 and insert :wq and enter
 
+enter the filenames to be ignored eg: log.txt. if its a directory then :  /<directory name>  
+git branch <branch name> //creates a new branch so changes are not commited to the main branch 
+git checkout <name of the branch>// change branch to the specified branch name
 
 
 
