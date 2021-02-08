@@ -6,6 +6,12 @@ git rm --cached <filename> //remove file from git repository
 git status// get information about which files are in git repository and which ones arent 
 git add *.html //add any file with an .html extension to git repository 
 git add . //adds every file of your current working directory to repo 
+git commit///most important command , it will open a vim file editor. enter i for instert, then uncomment initial commit comment by removing #sign and then select escape "esc" 
+and enter :wq and select enter to fully commit to the git repository.
+git commit -m "this is the space to comment changes made to the repository"// -m will automatically skip editing part and directly commit changes 
+
+
+
 
 
 
