@@ -1,0 +1,11 @@
+git config user.name /// configurate user.name 
+git config user.email /// configurate user.email
+git init//create empty .git repository
+git add// add file to git repository
+git rm --cached <filename> //remove file from git repository
+git status// get information about which files are in git repository and which ones arent 
+git add *.html //add any file with an .html extension to git repository 
+git add . //adds every file of your current working directory to repo 
+
+
+
