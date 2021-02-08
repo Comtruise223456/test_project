@@ -12,7 +12,8 @@ git commit -m "this is the space to comment changes made to the repository"// -m
 touch .gitignore// in bash terminal this will create a file which contains all files that git will ignore , inside the.gitignore file 
 enter the filenames to be ignored eg: log.txt. 
 git checkout master //change branch to the master branch , all files edited from previous branch will remain if they were commited 
-
+git merge <branch name to merge with master branch> // this will open a vim editor enter i to insert  uncomment MERGE BRANCH <branch name> then escape 
+and insert :wq and enter
 
 
 
