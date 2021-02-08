@@ -17,6 +17,8 @@ and insert :wq and enter
 git branch <branch name> //creates a new branch so changes are not commited to the main branch 
 git checkout <name of the branch>// change branch to the specified branch name
 git remote add origin <remote github repository name> // this will add local repository to specified github remote repository 
+git push // after changes are added and commited , this command will automatically push changes to remote github repository 
+
 
 
 
