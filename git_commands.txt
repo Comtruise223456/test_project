@@ -9,7 +9,8 @@ git add . //adds every file of your current working directory to repo
 git commit///most important command , it will open a vim file editor. enter i for instert, then uncomment initial commit comment by removing #sign and then select escape "esc" 
 and enter :wq and select enter to fully commit to the git repository.
 git commit -m "this is the space to comment changes made to the repository"// -m will automatically skip editing part and directly commit changes 
-
+touch .gitignore// in bash terminal this will create a file which contains all files that git will ignore , inside the.gitignore file 
+enter the filenames to be ignored eg: log.txt. 
 
 
 
